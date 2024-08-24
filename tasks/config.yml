@@ -1,5 +1,5 @@
 ---
-- name: Copy Filebeat configuration.
+- name: RENAME------- filebeat configuration.
   template:
     src: "{{ filebeat_template }}"
     dest: "/etc/filebeat/filebeat.yml"
